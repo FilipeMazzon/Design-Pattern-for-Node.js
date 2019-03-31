@@ -3,7 +3,7 @@ class Car {
         this.model = builder.model;
         this.manufacturer = builder.manufacturer;
         this.new = builder.new || false;
-        this.garantie = builder.garantie || 0;
+        this.guarantee = builder.guarantee || 0;
         this.powerOfHorses = builder.powerOfHorses || 0;
         this.numberOfDoors = builder.numberOfDoors || 2;
         this.kmPerLiter = builder.kmPerLiter || 0;

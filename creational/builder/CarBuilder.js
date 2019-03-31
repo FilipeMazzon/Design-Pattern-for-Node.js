@@ -10,11 +10,11 @@ class CarBuilder {
     }
     makeNew(garantie = 2) {
         this.new = true;
-        this.garantie = garantie;
+        this.guarantee = garantie;
         return this;
     }
-    makeGarantie(timeInYear){
-        this.garantie = timeInYear;
+    makeGuarantee(timeInYear){
+        this.guarantee = timeInYear;
         return this;
     }
     makePowerOfHorses(powerOfHorses) {

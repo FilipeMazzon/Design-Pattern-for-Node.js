@@ -1,8 +1,7 @@
-const SomethingDAO = require('./SomethingDAO');
+const somethingDAO = require('./SomethingDAO');
 
 const getSomething = async () => {
     try {
-        let somethingDAO = new SomethingDAO();
         let result = await somethingDAO.findAll();
         console.log(result);
         //res.status(200).send(result);

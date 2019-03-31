@@ -1,0 +1,11 @@
+{
+  "name": "untitled",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node controller.js"
+  },
+  "dependencies": {
+    "mongodb": "^3.2.2"
+  }
+}

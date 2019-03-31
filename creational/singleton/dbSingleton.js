@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const {user, password, dbName} = require('./db.json');
+const {user, password, dbName} = require('./config/info.json');
 const uri = `mongodb+srv://${user}:${password}@cluster0-6zlfo.mongodb.net/${dbName}?retryWrites=true`;
 class Database {
     constructor() {
